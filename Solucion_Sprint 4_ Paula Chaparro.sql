@@ -308,6 +308,6 @@ or product_id like concat('11', ',%')
 or product_id like concat('%, ','11') 
 )
 and declined = 0
-group by id -- efectivamente esta consulta indica que hay 48 registros del producto 11
+group by id -- efectivamente esta consulta indica que hay 40 registros del producto 11
 ;
 
